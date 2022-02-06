@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.bg-layer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 20px 50px;
+  max-width: 750px;
+}
+
+.card-header {
+  display: flex;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  border-bottom: 2px solid #b5b7c4;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.title {
+  color: #171f46;
+  font-size: 26px;
+}
+
+.label-tag {
+  color: #b5b7c4;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.text-box {
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  outline: none;
+  flex-grow: 1;
+  height: 40px;
+  padding: 8px;
+}
+
+.submit-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 16px;
+  padding: 7px 14px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.pic {
+  width: 300px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-title {
+  color: #171f46;
+  font-size: 20px;
+}
+
+.status-btn {
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  cursor: pointer;
+  color: #8b5cf6;
+  width: 80px;
+  height: 24px;
+  border-radius: 16px;
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.active-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
